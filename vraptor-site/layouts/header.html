@@ -47,7 +47,7 @@
 
 <div class="breadcrumbs">
   <% breadcrumbs_trail.each do |crumb| %> 
-    <% if crumb && @item[:title] != "Home" %>
+    <% if crumb && @item[:title] != "Homi" %>
      <%= link_to(crumb[:title], crumb.reps.find { |r| r.name == :default }) %>
     <% end %>
   <% end %>
